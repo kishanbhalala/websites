@@ -36,10 +36,8 @@ import GallaryPost from '../Blog/GallaryPost'
 import VideoPost from '../Blog/VideoPost'
 import AudioPost from '../Blog/AudioPost'
 import QuotePost from '../Blog/QuotePost'
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Termsofuse from '../../Components/Termsofuse'
-import ScrollToTop from '../../Components/ScrollToTop'
 import ScrollIndicator from '../../Components/ScrollIndicator'
 
 
@@ -50,7 +48,6 @@ export default function AllPages() {
       <div>
         <BrowserRouter>
           <ScrollIndicator />
-          <ScrollToTop />
           <Routes>
 
             {/* HOME-SECTION-COMPONENTS */}
